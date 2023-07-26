@@ -16,5 +16,21 @@ namespace CrudLab
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Form3 formClients = new Form3();
+            this.Hide();
+            formClients.ShowDialog();
+            this.Show();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Form4 formClients = new Form4();
+            this.Hide();
+            formClients.ShowDialog();
+            this.Show();
+        }
     }
 }
